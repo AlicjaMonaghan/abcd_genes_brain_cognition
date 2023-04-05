@@ -58,7 +58,7 @@ D = squareform(pdist(schaefer100_coordinates));
 % And find the number of regions in the parcellation.
 nroi = 100;
 % Load the GNM target connectomes for all participants.
-target_connectomes = load('data/example_individual_gnm_targets.mat');
+target_connectomes = load('data/individual_gnm_targets.mat');
 target_connectomes = target_connectomes.abcd_thresholded_27_streamlines;
 % Load the seed.
 seed = load('data/example_seed_gnm.mat');
