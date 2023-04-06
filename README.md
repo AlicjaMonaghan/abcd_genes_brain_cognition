@@ -39,4 +39,4 @@ We also include the Cytoscape session used to visualise comparative enrichment g
 7. linking_ahba_genetics_with_gnm_parameters_and_cognition.m
 8. abcd_gene_ontology_analysis.R
 9. abcd_group_and_individual_gnm_visualisation.R
-10. fcn_ks.m --> This calculates the Kolmogorv-Smirnov statistic comparing distributions of degree, total edge length, betweeenness-centrality, and clustering, used to calculate energy. This script was written by Dr. Danyal Akarca.
+10. fcn_ks.m --> This calculates the Kolmogorv-Smirnov statistic comparing distributions of degree, total edge length, betweeenness-centrality, and clustering, used to calculate energy. This script was written by Dr. Danyal Akarca. Add this to the /toolboxes_and_function path when downloading this directory.
