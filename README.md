@@ -1,4 +1,4 @@
-**Code repository for "Enriched Genetic Pathways Shape Generative Structural Brain Mechanisms and Cognitive Ability".**
+**Code repository for "Population-Level Genetic Variation Shapes Generative Brain Mechanisms".**
 
 Alicja Monaghan [1,2], Danyal Akarca [1] & Duncan Astle [1,3]
 1. MRC Cognition and Brain Sciences Unit, University of Cambridge, Cambridge, UK
@@ -34,9 +34,10 @@ We also include the Cytoscape session used to visualise comparative enrichment g
 2. run_and_evaluate_group_gnm.m
 3. run_individual_neighbours_structural_gnm_grid_search.m
 4. examine_individual_neighbours_structural_gnm_outputs.m
-5. run_pls_regression_ahba_nodal_parameters.m
-6. sorting_pls_regression_ahba_nodal_parameters.m
-7. linking_ahba_genetics_with_gnm_parameters_and_cognition.m
-8. abcd_gene_ontology_analysis.R
-9. abcd_group_and_individual_gnm_visualisation.R
-10. fcn_ks.m --> This calculates the Kolmogorv-Smirnov statistic comparing distributions of degree, total edge length, betweeenness-centrality, and clustering, used to calculate energy. This script was written by Dr. Danyal Akarca. Add this to the /toolboxes_and_function path when downloading this directory.
+5. pgs_group_visualisation.R
+6. run_pls_regression_ahba_nodal_parameters.m
+7. sorting_pls_regression_ahba_nodal_parameters.m
+8. linking_ahba_genetics_with_gnm_parameters_and_cognition.m
+9. abcd_gene_ontology_analysis.R
+10. abcd_group_and_individual_gnm_visualisation.R
+11. fcn_ks.m --> This calculates the Kolmogorv-Smirnov statistic comparing distributions of degree, total edge length, betweeenness-centrality, and clustering, used to calculate energy. This script was written by Dr. Danyal Akarca. Add this to the /toolboxes_and_function path when downloading this directory.
