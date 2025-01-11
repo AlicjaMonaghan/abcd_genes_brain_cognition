@@ -78,6 +78,9 @@ for sub = 1:nsub
     optimal_eta(sub,1) = params(I,1);
     optimal_gamma(sub,1) = params(I,2);
 end
+% Save the optimal eta and gamma participant-level estimates
+optimal_estimates_table = table(optimal_eta, optimal_gamma);
+writetable(optimal_estimates_table, 'data/optimal_participant_level_gnm_parameters.txt');
 % Now plot the energy landscape i.e. individual energy values and the eta
 % and gamma limits they correspond to.
 imagesc(squeeze(mean(reshape(individual_gnm_energy, [nsub sqrt(nparams) sqrt(nparams)]),1)));

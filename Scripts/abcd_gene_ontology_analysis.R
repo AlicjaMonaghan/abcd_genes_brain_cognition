@@ -18,7 +18,7 @@
 
 ### STEP 1 - Setting Up the Work Space ####
 rm(list = ls())
-working_directory = "abcd_genomic_variation_structural_generative_mechanisms_open/"
+working_directory = "/Users/alicjamonaghan/Desktop/abcd_genes_brain_cognition"
 # SET TO WHERE YOU SAVED THIS DIRECTORY!
 setwd(working_directory)
 
@@ -50,7 +50,12 @@ nodal_wiring_costs_gost_formatted_results =
          Description = nodal_wiring_costs_gost$result$term_name,
          p.val = nodal_wiring_costs_gost$result$p_value,
          Phenotype = "+1",
-         Source = factor(nodal_wiring_costs_gost$result$source))
+         Source = factor(nodal_wiring_costs_gost$result$source),
+         GeneRatio = nodal_wiring_costs_gost$result$intersection_size/nodal_wiring_costs_gost$result$query_size,
+         TermSize = nodal_wiring_costs_gost$result$term_size)
+# And save for plotting!
+write.csv(nodal_wiring_costs_gost_formatted_results, "data/nodal_wiring_costs_gost_formatted_results.csv")
+
 ### STEP 4 - GO Analyses for Parameterised Nodal Wiring Value ####
 nodal_wiring_value_gost = gost(nodal_wiring_value_genes$ahba_gene_name, 
                                organism = "hsapiens", 
@@ -63,9 +68,10 @@ nodal_wiring_value_gost_formatted_results =
          Description = nodal_wiring_value_gost$result$term_name,
          p.val = nodal_wiring_value_gost$result$p_value,
          Phenotype = "+1",
-         Source = factor(nodal_wiring_value_gost$result$source))
-
-
+         Source = factor(nodal_wiring_value_gost$result$source),
+         GeneRatio = nodal_wiring_value_gost$result$intersection_size/nodal_wiring_value_gost$result$query_size,
+         TermSize = nodal_wiring_value_gost$result$term_size)
+write.csv(nodal_wiring_value_gost_formatted_results, "data/nodal_wiring_value_gost_formatted_results.csv")
 
 
 ### STEP 5 - GO Analyses for SNPs included in PGS for Cognitive Ability ####

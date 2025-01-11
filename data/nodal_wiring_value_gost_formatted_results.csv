@@ -1,0 +1,39 @@
+"","GO.ID","Description","p.val","Phenotype","Source","GeneRatio","TermSize"
+"1","GO:0007267","cell-cell signaling",2.95583828128391e-05,"+1","GO:BP",0.152892561983471,1262
+"2","GO:0099536","synaptic signaling",6.1031355427097e-05,"+1","GO:BP",0.0829875518672199,514
+"3","GO:0007268","chemical synaptic transmission",0.000114849294115618,"+1","GO:BP",0.0788381742738589,485
+"4","GO:0098916","anterograde trans-synaptic signaling",0.000114849294115618,"+1","GO:BP",0.0788381742738589,485
+"5","GO:0099537","trans-synaptic signaling",0.000150054485428878,"+1","GO:BP",0.0788381742738589,490
+"6","GO:0007411","axon guidance",0.00241761655449767,"+1","GO:BP",0.037109375,165
+"7","GO:0097485","neuron projection guidance",0.00241761655449767,"+1","GO:BP",0.037109375,165
+"8","GO:0003231","cardiac ventricle development",0.00817213018971998,"+1","GO:BP",0.0398009950248756,75
+"9","GO:0003206","cardiac chamber morphogenesis",0.016029635431033,"+1","GO:BP",0.0398009950248756,82
+"10","GO:0060560","developmental growth involved in morphogenesis",0.0253011160649211,"+1","GO:BP",0.0327102803738318,134
+"11","GO:0032989","cellular anatomical entity morphogenesis",0.0282638149883394,"+1","GO:BP",0.076555023923445,545
+"12","GO:0030030","cell projection organization",0.0329801592469915,"+1","GO:BP",0.128099173553719,1201
+"13","GO:0007399","nervous system development",0.0406026612058283,"+1","GO:BP",0.163223140495868,1661
+"14","GO:0050919","negative chemotaxis",0.0422721675006867,"+1","GO:BP",0.0230769230769231,36
+"15","GO:0120036","plasma membrane bounded cell projection organization",0.0423187269085568,"+1","GO:BP",0.12603305785124,1185
+"16","GO:0009719","response to endogenous stimulus",0.0425960514560353,"+1","GO:BP",0.124472573839662,1158
+"17","GO:0071944","cell periphery",0.000244439101401406,"+1","GO:CC",0.407786885245902,5156
+"18","GO:0005886","plasma membrane",0.000566389140765164,"+1","GO:CC",0.387341772151899,4716
+"19","GO:0045202","synapse",0.0012900842093252,"+1","GO:CC",0.0925925925925926,679
+"20","GO:0030054","cell junction",0.00863891672560977,"+1","GO:CC",0.138429752066116,1411
+"21","GO:0043005","neuron projection",0.0170862993385769,"+1","GO:CC",0.0986301369863014,828
+"22","GO:0015629","actin cytoskeleton",0.0171376396926206,"+1","GO:CC",0.064,442
+"23","GO:0031253","cell projection membrane",0.0222005205821327,"+1","GO:CC",0.0353817504655493,218
+"24","GO:0098793","presynapse",0.0348773584438387,"+1","GO:CC",0.0453172205438066,247
+"25","GO:0043195","terminal bouton",0.0365153606726987,"+1","GO:CC",0.0185873605947955,31
+"26","GO:0120025","plasma membrane bounded cell projection",0.0435357699173112,"+1","GO:CC",0.153034300791557,1587
+"27","GO:0099507","ligand-gated monoatomic ion channel activity involved in regulation of presynaptic membrane potential",0.000873598700478817,"+1","GO:MF",0.0789473684210526,11
+"28","GO:0022836","gated channel activity",0.00513240419859341,"+1","GO:MF",0.0548780487804878,286
+"29","GO:0022835","transmitter-gated channel activity",0.00684954577997424,"+1","GO:MF",0.0249221183800623,59
+"30","GO:0022824","transmitter-gated monoatomic ion channel activity",0.00684954577997424,"+1","GO:MF",0.0249221183800623,59
+"31","GO:0030594","neurotransmitter receptor activity",0.0069239985545792,"+1","GO:MF",0.0311526479750779,97
+"32","GO:0099095","ligand-gated monoatomic anion channel activity",0.0143872941298445,"+1","GO:MF",0.0155763239875389,20
+"33","GO:0005230","extracellular ligand-gated monoatomic ion channel activity",0.0197611117841653,"+1","GO:MF",0.0249221183800623,68
+"34","GO:0022834","ligand-gated channel activity",0.0236029738319277,"+1","GO:MF",0.0365853658536585,156
+"35","GO:0015276","ligand-gated monoatomic ion channel activity",0.0236029738319277,"+1","GO:MF",0.0365853658536585,156
+"36","GO:0005216","monoatomic ion channel activity",0.0266519044997515,"+1","GO:MF",0.142857142857143,410
+"37","GO:0022851","GABA-gated chloride ion channel activity",0.0399130645395703,"+1","GO:MF",0.0124610591900312,13
+"38","GO:0070326","very-low-density lipoprotein particle receptor binding",0.045018817173042,"+1","GO:MF",0.00627615062761506,4
